@@ -1,0 +1,44 @@
+@charset "utf-8";
+.container-fluid {
+	padding: 0px 0px;
+	background-color:#E8CB98;
+}
+.navbar-orange {
+	background-color:#E8CB98;
+}
+ul li a {
+	color:black;
+}
+
+.logocenter {
+	text-align: center;
+}
+.navcenter {
+	padding-left:490px;
+}
+.hoverbig img {
+	width:100%;
+}
+.hoverbig img:hover {
+	width:130%;
+	margin-left:-15%;
+	margin-top:-15%;
+	transition: 1s;
+}
+@media (min-width:991px) and (max-width:1199px){
+	.navcenter {
+		padding-left:350px;
+	}	
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.navcenter {
+		padding-left:250px;
+	}
+}
+
+@media (max-width:767px){
+	.navcenter {
+		padding-left:10px;
+	}
+}
